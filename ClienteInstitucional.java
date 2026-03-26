@@ -11,7 +11,7 @@ public class ClienteInstitucional extends Cliente {
 
     @Override
     public void listarAcciones() {
-        System.out.println("\n=== Acciones de " + getNombre() + " (INSTITUCIONAL) ===");
+        System.out.println("\nAcciones de " + getNombre() + " (ITQ)");
         System.out.println("Codigo: " + codigoInstitucional);
         System.out.println("Comision: " + (comision * 100) + "%");
         
